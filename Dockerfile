@@ -1,5 +1,7 @@
 FROM python:3.9-slim
 
+MAINTAINER Anil Kumar <anilkumarya2@gmail.com>
+
 ENV APP_HOME /app
 
 WORKDIR $APP_HOME
